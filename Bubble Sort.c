@@ -2,22 +2,21 @@
 Author : Anand Soni
 
 Bubble Sort:
-In this the loop is sorted from the back and then it goes to the front of the array.
-It does this by swapping adjacent values and by doing this the last value of the array
-contains the largest value (if in Ascending) and moving to the first value.
+In this the array is sorted from the back and then it goes to the front of the array.
+It is done by swapping adjacent values of the array one by one.
 
 Example:
 Let an array be of length 5 with values :
 9 2 5 1 7
 
- INITIAL		   SWAPPING          	  FINAL
+ INITIAL		          SWAPPING              FINAL
 
-9 2 5 1 7	i=0, j=0, j+1=1		2 9 5 1 7
-2 9 5 1 7	i=0, j=1, j+1=2		2 5 9 1 7                                                                                                                                                          
-2 5 9 1 7        i=0, j=2, j+1=3		2 5 1 9 7                                                                                                                                                   
-2 5 1 9 7        i=0, j=3, j+1=4		2 5 1 7 9                                                                                                                                                   
-2 5 1 7 9        i=1, j=1, j+1=2		2 1 5 7 9                                                                                                                                                   
-2 1 5 7 9        i=2, j=0, j+1=1     	1 2 5 7 9 (Ans)                                                                                                                                           
+9 2 5 1 7	       i=0, j=0, j+1=1		      2 9 5 1 7
+2 9 5 1 7	       i=0, j=1, j+1=2		      2 5 9 1 7                                                                                                                                                          
+2 5 9 1 7        i=0, j=2, j+1=3	      	2 5 1 9 7                                                                                                                                                   
+2 5 1 9 7        i=0, j=3, j+1=4	      	2 5 1 7 9                                                                                                                                                   
+2 5 1 7 9        i=1, j=1, j+1=2	      	2 1 5 7 9                                                                                                                                                   
+2 1 5 7 9        i=2, j=0, j+1=1        1 2 5 7 9 (Ans)                                                                                                                                           
 
 Take a moment to make an algorithm yourself, it helps a lot, otherwise the solution 
 is just below, Enjoy Coding !!!
