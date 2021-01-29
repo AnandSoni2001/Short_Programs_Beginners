@@ -9,7 +9,7 @@ Example:
 Let an array be of length 5 with values :
 9 2 5 1 7
 
- INITIAL     SWAPPING          FINAL
+ INITIAL        SWAPPING          FINAL
 
 9 2 5 1 7	i=0, j=0, j+1=1		2 9 5 1 7
 2 9 5 1 7	i=0, j=1, j+1=2		2 5 9 1 7                                                                                                                                                          
