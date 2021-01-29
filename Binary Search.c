@@ -43,9 +43,9 @@ is just below, Enjoy Coding !!!
 
 #include <stdio.h>
 
-void BinarySearch(int a[], int n, int val)
+void BinarySearch(int a[], int n, int val)      //Binary Search Function 
 {
-    int l=0, u=n-1, mid, flag=0;
+    int l=0, u=n-1, mid, flag=0;           
     while(l<=u)
     {
         mid=(l+u)/2;
@@ -59,12 +59,12 @@ void BinarySearch(int a[], int n, int val)
             l=mid+1;
         else
             u=mid-1;   
-    }
-    if(flag==0)
+    }   
+    if(flag==0)                                 //To print error message when number not found
         printf("The value is not found");
 }
 
-void Sort(int a[], int n)
+void Sort(int a[], int n)                       //Sorting Function
 {
     int temp, val;
     for(int i=0; i<n; i++)
@@ -73,7 +73,7 @@ void Sort(int a[], int n)
         {
             if(a[j]>a[j+1])
             {
-                temp=a[j];
+                temp=a[j];                      //Swapping
                 a[j]=a[j+1];
                 a[j+1]=temp;
             }
@@ -82,8 +82,8 @@ void Sort(int a[], int n)
     for(int i=0; i<n; i++)
         printf("%d ", a[i]);
     printf("\n\nEnter the number you want to search in the Array : ");
-    scanf("%d", &val);
-    BinarySearch(a, n, val);
+    scanf("%d", &val);                          //Element to be searched in the Array
+    BinarySearch(a, n, val);                    // Calling Searching Function
 }
 
 void main()
@@ -98,5 +98,5 @@ void main()
     for(int i=0; i<n; i++)
         printf("%d ", a[i]);
     printf("\n\nSorting the Array ......\n");
-    Sort(a, n);
+    Sort(a, n);                                 //Calling Sorting Function
 }
