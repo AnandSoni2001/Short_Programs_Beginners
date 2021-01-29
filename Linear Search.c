@@ -16,18 +16,20 @@ is just below, Enjoy Coding !!!
 *******************************************************************************/
 
 #include <stdio.h>
-void LinSearch(int a[ ], int n1, int n)
+
+void LinSearch(int a[ ], int n1, int n)     //Searching Function
 {
-    int flag=0;
+    int flag=0;                             //You can also use boolean true/false
     for(int i=0; i<n; i++)
         if(a[i]==n1)
         {
             printf("The Element is found at %d position", (i+1));
             flag=1;
         }
-    if(flag==0)
+    if(flag==0)                             //If element not found, it prints error message
         printf("Sorry the number is not found");
 }
+
 void main()
 {
     int n, n1;
@@ -40,6 +42,6 @@ void main()
     for(int i=0; i<n; i++)
         printf("%d ", a[i]);
     printf("\nEnter the number you want to search in the Array : ");
-    scanf("%d", &n1);
-    LinSearch(a, n1, n);
+    scanf("%d", &n1);                       //Element to be searched in the Array
+    LinSearch(a, n1, n);                    //Function Calling
 }
