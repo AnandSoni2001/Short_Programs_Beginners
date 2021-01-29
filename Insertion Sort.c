@@ -2,18 +2,18 @@
 Author : Anand Soni
 
 Insertion Sort:
-In this the loop is sorted from the front and then it goes at the back.
+In this Sorting, the array is sorted from the front going to the back.
+
+Our main objective here is to find the smallest element in each iteration from the
+unsorted array and putting in the place of i. This way the array will be sorted in 
+ascending order.
+Think what you could do to make it in descending order !
 
 Example:
 Let an array be of length 5 with values :
 5 1 4 2 3
 
-In this our main objective is to find the smallest element in each iteration from
-the unsorted array and so on the process is completed with the largest element is at
-the last for ascending order.
-Think what you could do to make it in descending order.
-
-Okay now the steps would be :
+Now the steps would be :
 
  INITIAL     SWAPPING         FINAL
 
