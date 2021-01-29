@@ -1,4 +1,19 @@
-//Linear Search
+/******************************************************************************
+Author : Anand Soni
+
+Linear Search :
+Linear Search is finding an element in an array by iterating from each element
+of the array. Sorting is not required in Linear Search.
+
+Example:
+Array given = 9 1 4 2 3
+Element to be Searched = 2
+Answer = 4 Position
+
+Take a moment to make an algorithm yourself, it helps a lot, otherwise the solution 
+is just below, Enjoy Coding !!!
+
+*******************************************************************************/
 
 #include <stdio.h>
 void LinSearch(int a[ ], int n1, int n)
