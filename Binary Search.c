@@ -36,8 +36,6 @@ So now, l=mid+1=3, u=unchanged=4, mid=(3+4)/2=(int)3.5=3
 Finally, Ar[mid] equals to the required value = 7 then it displays the position and 
 the program will be terminated.
     
-Take a moment to make an algorithm yourself, it helps a lot, otherwise the solution 
-is just below, Enjoy Coding !!!
 
 *******************************************************************************/
 
